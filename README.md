@@ -1,31 +1,41 @@
 <h1>Automatic Scenario creation in BeamNG.Tech using OSM data</h1>
 
-What it does
+<h2>What it does</h2>
 
-This script downloads a drivable road network from OpenStreetMap around Hochschule Neu-Ulm, converts the road geometry into local coordinates, and creates a BeamNG.tech scenario from it. It also spawns a vehicle, reads its position using an IMU sensor, and converts the simulated position back into geographic coordinates.
+<p>This script downloads a drivable road network from <b>OpenStreetMap</b> around <b>Hochschule Neu-Ulm</b>, converts the road geometry into local coordinates, and creates a <b>BeamNG.tech</b> scenario from it. It also spawns a vehicle, reads its position using an IMU sensor, and converts the simulated position back into geographic coordinates. </p>
 
-What it helps for
-	•	Testing OSM-based road import into BeamNG.tech
-	•	Map-based driving simulation
-	•	Localization and GPS position checks
-	•	Prototyping route planning and road-network experiments
+<h2>What it helps for</h2>
+<ul>
+	<li>Testing OSM-based road import into BeamNG.tech</li>
+	<li>Map-based driving simulation</li>
+	<li>Localization and GPS position checks</li>
+	<li>Prototyping route planning and road-network experiments</li>
+</ul>
 
-Requirements
-	•	Python 3.9+
-	•	BeamNG.tech installed locally
-	•	Python packages:
-	•	osmnx
-	•	networkx
-	•	shapely
-	•	pyproj
-	•	beamngpy
 
-Install dependencies
+<h2>Requirements</h2>
+<ul>
+	
+</ul>
+<li>Python 3.9+</li>
+<li>BeamNG.tech installed locally</li>
+<li>Python packages:</li>
+<ul>
+	<li>osmnx</li>
+	<li>networkx</li>
+	<li>shapely</li>
+	<li>pyproj</li>
+	<li>beamngpy</li>
+</ul>
 
+<h2>Install dependencies</h2>
+
+```bash
 pip install osmnx networkx shapely pyproj beamngpy
+```
 
-Note
+<b>Note</b>
 
-Update the BeamNG installation path in the script before running it:
+<p>Update the BeamNG installation path in the script before running it:</p>
 
-home=r"C:\\BeamNG.tech.v0.37.6.0\\BeamNG.tech.v0.37.6.0"
+`home=r"C:\\BeamNG.tech.v0.37.6.0\\BeamNG.tech.v0.37.6.0"`
