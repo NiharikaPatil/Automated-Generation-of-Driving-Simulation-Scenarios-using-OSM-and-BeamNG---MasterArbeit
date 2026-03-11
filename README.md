@@ -1,4 +1,4 @@
-Automatic Scenario creation in BeamNG.Tech using OSM data
+<h1>Automatic Scenario creation in BeamNG.Tech using OSM data</h1>
 
 What it does
 
